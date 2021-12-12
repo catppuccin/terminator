@@ -23,4 +23,4 @@
 ## 💝 Thanks to
 
 - [Human](https://github.com/catppuccin)
-- [Rompicapo](https;//github.com/Rompicapo)
+- [Rompicapo](https://github.com/Rompicapo)
