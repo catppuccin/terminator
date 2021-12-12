@@ -10,11 +10,17 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
+1. Copy the contents of the "catppuccin.config" file into your "~ /.config/terminator/config" file
+```
+[layouts]
+  [[default]]
+    # ..default layout
+  [[Catppuccin]]
+    # ..Catppuccin layout
+```
+2. Open terminator and right click on the screen and select the catppuccin profile or `terminator -p Catppuccin`
+3. if you want you can also delete the "[[default]]" section and rename the "[[Catppuccin]]" section as "default" to use this profile as default
 ## 💝 Thanks to
 
 - [Human](https://github.com/catppuccin)
+- [Rompicapo](https;//github.com/Rompicapo)
