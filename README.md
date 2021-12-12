@@ -19,7 +19,7 @@
     # ..Catppuccin layout
 ```
 2. Open terminator and right click on the screen and select the catppuccin profile or `terminator -p Catppuccin`
-3. if you want you can also delete the "[[default]]" section and rename the "[[Catppuccin]]" section as "default" to use this profile as default
+3. If you want you can also delete the "[[default]]" section and rename the "[[Catppuccin]]" section as "default" to use this profile as default
 ## 💝 Thanks to
 
 - [Human](https://github.com/catppuccin)
