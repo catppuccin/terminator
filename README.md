@@ -12,25 +12,26 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/sample.png"/>
+  <img src="assets/ss.png"/>
 </p>
 
 ## Usage
 
-1. Copy the contents of the "catppuccin.config" file into your "~ /.config/terminator/config" file
+1. Copy the contents of the "catppuccin.config" file into your "~ /.config/terminator/config" file in the following manner:
 ```
-[layouts]
+[profiles]
   [[default]]
-    # ..default layout
-  [[Catppuccin]]
-    # ..Catppuccin layout
+    # ..default profile
+  [[Catppuccin_Flavour]]
+    # ..Catppuccin profile
 ```
-2. Open terminator and right click on the screen and select the catppuccin profile or `terminator -p Catppuccin`
-3. If you want you can also delete the "[[default]]" section and rename the "[[Catppuccin]]" section as "default" to use this profile as default
+2. Open terminator and right click on the screen > `Profiles` and select the catppuccin profile of the flavour of your choice or `terminator -p Catppuccin_{Flavour}` where _{Flavour}_ can be `Latte, Frappe, Macchiato or Mocha`.
+3. If you want you can also delete the "[[default]]" section and rename one of the Catppuccin profiles as "default" to use this profile as default.
 ## 💝 Thanks to
 
 - [Human](https://github.com/catppuccin)
 - [Rompicapo](https://github.com/Rompicapo)
+- [Adal Zanabria](https://github.com/AdalZanabria)
 
 &nbsp;
 
