@@ -29,7 +29,6 @@
 3. If you want you can also delete the "[[default]]" section and rename one of the Catppuccin profiles as "default" to use this profile as default.
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
 - [Rompicapo](https://github.com/Rompicapo)
 - [Adal Zanabria](https://github.com/AdalZanabria)
 
