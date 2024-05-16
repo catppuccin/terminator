@@ -1,0 +1,19 @@
+---
+whiskers:
+  version: 2.1.0
+---
+
+{%- for _, flavor in flavors -%}
+{%- set palette = flavor.colors -%}
+  [[Catppuccin_{{ flavor.identifier | capitalize }}]]
+    cursor_color = "#{{ palette.rosewater.hex }}"
+    background_color = "#{{ palette.base.hex }}"
+    foreground_color = "#{{ palette.text.hex }}"
+    {%- if flavor.dark %}
+    {%- set colors = [palette.surface1, palette.red, palette.green, palette.yellow, palette.blue, palette.pink, palette.teal, palette.subtext1, palette.surface2, palette.red, palette.green, palette.yellow, palette.blue, palette.pink, palette.teal, palette.subtext0] %}
+    {%- else %}
+    {%- set colors = [palette.subtext1, palette.red, palette.green, palette.yellow, palette.blue, palette.pink, palette.teal, palette.surface2, palette.subtext0, palette.red, palette.green, palette.yellow, palette.blue, palette.pink, palette.teal, palette.surface1] %}
+    {%- endif %}
+    palette = "#{{ colors | map(attribute="hex") | join(sep=":#") }}"
+    background_image = None
+{% endfor -%}
