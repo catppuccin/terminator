@@ -5,7 +5,7 @@ whiskers:
 
 {%- for _, flavor in flavors -%}
 {%- set palette = flavor.colors -%}
-  [[Catppuccin_{{ flavor.identifier | capitalize }}]]
+{{ "  " }}[[Catppuccin_{{ flavor.identifier | capitalize }}]]
     cursor_color = "#{{ palette.rosewater.hex }}"
     background_color = "#{{ palette.base.hex }}"
     foreground_color = "#{{ palette.text.hex }}"
